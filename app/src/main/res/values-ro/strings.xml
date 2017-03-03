@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Just Java</string>
+    <string name="add_chocolate">Adauga ciocolata?\u0020</string>
+    <string name="add_whipped_cream">Adauga frisca?\u0020</string>
+    <string name="button_name">Comanda</string>
+    <string name="edit_text">Nume</string>
+    <string name="label_title">Sumarul comenzii</string>
+    <string name="quantity_title">Cantitatea</string>
+    <string name="quantity_total">Cantitatea:\u0020</string>
+    <string name="subject_email">Comanda JustJava pentru  <xliff:g example ="Amy" id="name">%s</xliff:g></string>
+    <string name="thank_you">Multumim!</string>
+    <string name="toppings_chocolate">Ciocolata</string>
+    <string name="toppings_title">Ingrediente</string>
+    <string name="toppings_whipped_cream">Frisca</string>
+    <string name="total">Total:\u0020</string>
+    <string name="order_summary_name">Nume: <xliff:g id="name" example="Amy">%s</xliff:g></string>
+</resources>

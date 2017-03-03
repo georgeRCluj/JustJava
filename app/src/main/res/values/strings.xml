@@ -1,0 +1,22 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name" translatable="false">Just Java</string>
+    <string name="quantity_title">Quantity</string>
+    <string name="toppings_title">Toppings</string>
+    <string name="toppings_whipped_cream">Whipped cream</string>
+    <string name="toppings_chocolate">Chocolate</string>
+    <string name="edit_text">Name</string>
+    <string name="label_title">Order Summary</string>
+    <string name="quantity" translatable="false">2</string>
+    <string name="price" translatable="false">$10</string>
+    <string name="button_name">Order</string>
+    <string name="plus_button_name" translatable="false">+</string>
+    <string name="minus_button_name" translatable="false">-</string>
+    <string name="subject_email">JustJava order for <xliff:g example ="Amy" id="name">%s</xliff:g></string>
+    <string name="thank_you">Thank you!</string>
+    <string name="total">Total:\u0020</string>  <!-- \u0020 means space at the end of the string or at the beginning of it -->
+    <string name="quantity_total">Quantity:\u0020</string>
+    <string name="add_chocolate">Add chocolate?\u0020</string>
+    <string name="add_whipped_cream">Add whipped cream?\u0020</string>
+    <string name="order_summary_name">Name: <xliff:g example="Amy" id="name">%s</xliff:g></string>
+
+</resources>
