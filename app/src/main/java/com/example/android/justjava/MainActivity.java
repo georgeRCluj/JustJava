@@ -53,7 +53,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_SEND);
         intent.setType("message/rfc822");
-        intent.setData(Uri.parse("mailto:"));
+        /** or      intent.setAction(Intent.ACTION_SEND);
+        *           intent.setData(Uri.parse("mailto:"));
+        * if you start the activity this way, the same works if you include the call to setData()
+        * meaning ----- startActivity(Intent.createChooser(intent, "Choose an Email client :")); */
+
+        startActivity(Intent.createChooser(intent, "Choose an Email client :"));
         intent.putExtra(Intent.EXTRA_SUBJECT, subjectEmail);
         intent.putExtra(Intent.EXTRA_TEXT, priceMessage);
         if (intent.resolveActivity(getPackageManager()) != null) {
